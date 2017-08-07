@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lost</title>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href='styles.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <div class='wholeWrapper'>
+        <h1>You Lost!!!</h1>
+        <p class='word'>The word was: <span class='upperCase'>{{randomWord}}</span></p>
+        <img src='http://s2.quickmeme.com/img/01/0154507c284c954765ec80662f808a17f0a2e97cfa9cf42fe79f4fcd29e465f3.jpg' alt='loser gif'>
+        <form class='loserForm' action='/again' method='POST'>
+            <span id='confirm'><input type = 'submit' value='Play Again' class='gotIt'></span>
+        </form>
+    </div>
+</body>
+</html>
